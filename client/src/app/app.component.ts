@@ -23,5 +23,4 @@ export class AppComponent implements OnInit{
     this.accounService.setCurrentUser(user);
   }
 
-
 }
