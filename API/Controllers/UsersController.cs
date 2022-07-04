@@ -20,7 +20,7 @@ namespace API.Controllers
     [Authorize]
     public class UsersController : BaseApiController
     {
-        private readonly DataContext _context;
+        //private readonly DataContext _context;
         private readonly IUserRepository _userReppository;
         public readonly IMapper _mapper;
         public IPhotoService _photoService { get; }
